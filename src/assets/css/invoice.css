@@ -1,0 +1,214 @@
+.prdct-tbl th {
+  border-right-width: 0px !important;
+  padding: 0.1rem 0.1rem !important;
+  font-weight: 700;
+  border-bottom-width: 0px !important;
+}
+
+.prdct-tbl td {
+  background-color: unset !important;
+  border-bottom-width: 0px !important;
+  vertical-align: baseline !important;
+}
+
+.prdct-tbl p {
+  margin-bottom: 0.1rem;
+}
+
+.tbl-header,
+.tbl-footer {
+  margin-bottom: 0 !important;
+}
+
+.tbl-footer td,
+.tbl-header td {
+  background-color: unset !important;
+  border: unset !important;
+  padding: 0.1rem 0.1rem !important;
+}
+
+.tbl-header h3 {
+  color: #000 !important;
+}
+
+.tbl-footer,
+.tbl-header,
+.prdct-tbl {
+  font-size: 0.7rem;
+  background: white;
+  color: #000 !important;
+  /* padding: 1.25rem 1.25rem; */
+  /* text-transform: uppercase; */
+}
+
+.invoice-label {
+  font-weight: 700;
+  margin-bottom: 0.01rem;
+  text-transform: uppercase;
+}
+
+.invoice-label span {
+  font-weight: 400 !important;
+  text-transform: initial !important;
+}
+
+.invce-cmpny {
+  font-weight: 700;
+}
+
+/* .inv-footer {
+  position: fixed;
+  bottom: 0;
+} */
+
+.break-space {
+  white-space: break-spaces !important;
+}
+
+.prdct-tbl>:not(caption)>*>*,
+.tbl-footer>:not(caption)>*>*,
+.tbl-header>:not(caption)>*>* {
+  background-color: unset !important;
+  border: unset !important;
+  padding: 0.1rem 0.1rem !important;
+}
+
+/* .total-order-smry td {
+  border-top: 1px solid black !important;
+} */
+
+.border-top {
+  border-top: 1px solid black !important;
+}
+
+thead {
+  border-bottom: 2px solid black;
+}
+
+.border-bottom td {
+  border-bottom: 1px solid black !important;
+}
+
+.inv-terms,
+.inv-cmpny-address,
+.invce-cmpny {
+  /* text-transform: capitalize; */
+}
+
+.inv-cmpny-address {
+  margin-bottom: 0;
+  font-size: .6rem;
+}
+
+.login-cmpny {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.tbl-header h3 {
+  color: #000 !important;
+}
+
+@page {
+  margin: 10mm;
+  size: auto;
+  /* size: 6.125in 9.250in; */
+  /* width height */
+  /* margin: 1.2in 0.8in; */
+
+  /* Display page number in footer */
+  /* @bottom-center {
+    content: "Page "counter(page) " of "counter(pages);
+  } */
+}
+
+@media print {
+
+  body {
+    -webkit-print-color-adjust: exact;
+    margin: 0;
+    /* counter-reset: page; */
+    /* counter-reset: section; */
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tfoot {
+    display: table-footer-group;
+  }
+
+  button {
+    display: none;
+  }
+
+  .page {
+    page-break-after: auto;
+  }
+
+  .prdct-head {
+    page-break-inside: avoid;
+    /* counter-reset: page; */
+    /* counter-increment: page */
+  }
+
+  /* .page-header,
+  .page-header-space {
+    height: auto;
+  } */
+
+  .page-footer,
+  .page-footer-space {
+    height: 99px;
+  }
+
+  .page-footer {
+    position: fixed;
+    bottom: 3;
+    width: 100%;
+  }
+
+  .page-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* height: auto; */
+  }
+
+  /* .page-footer:after {
+    font-size: .6rem;
+    content: "Page " counter(page);
+  } */
+
+  /* .page-footer {
+    counter-reset: pageTotal 1;
+  } */
+
+  /* .prdct-tbl {
+    counter-reset: subsection;
+  } */
+
+  /* .page-footer:after {
+    font-size: .6rem; */
+  /* counter-increment: page; */
+  /* content: "Page "counter(page); */
+
+  /* content: "Page "counter(page) " of "counter(pageTotal); */
+
+  /* counter-increment: subsection 1; */
+  /* content: counter(page);
+  } */
+
+  /* counter-increment: page; */
+  /* counter-reset: page 1; */
+  /* counter-reset: page 1; */
+  /* } */
+
+  /* .page-counter:after {
+    content: "Page " counter(page);
+    counter-increment: page;
+    font-size: 10px;
+  } */
+
+}

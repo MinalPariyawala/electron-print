@@ -1,0 +1,107 @@
+.custom-modal-hide {
+  /* top: -50000px; */
+  /* display: none; */
+  /* opacity: 0; */
+}
+
+.prdct-tbl th {
+  border-right-width: 0px !important;
+  padding: 0.1rem 0.1rem !important;
+  font-weight: 700;
+  border-bottom-width: 0px !important;
+}
+
+.prdct-tbl td {
+  background-color: unset !important;
+  border-bottom-width: 0px !important;
+  vertical-align: baseline !important;
+}
+
+.prdct-tbl p {
+  margin-bottom: 0.1rem;
+}
+
+.tbl-footer td,
+.tbl-header td {
+  background-color: unset !important;
+  border: unset !important;
+  padding: 0.1rem 0.1rem !important;
+}
+
+.invoice-page .card-body,
+.tbl-footer,
+.tbl-header,
+.prdct-tbl {
+  font-size: 0.7rem;
+  background: white;
+  color: #000 !important;
+  /* padding: 1.25rem 1.25rem; */
+}
+
+.invoice-label {
+  font-weight: 700;
+  margin-bottom: 0.01rem;
+  text-transform: uppercase;
+}
+
+.invoice-label span {
+  font-weight: 400 !important;
+  text-transform: initial !important;
+}
+
+.invce-cmpny {
+  font-weight: 700;
+}
+
+/* .inv-footer {
+  position: fixed;
+  bottom: 0;
+} */
+
+.break-space {
+  white-space: break-spaces !important;
+}
+
+.prdct-tbl>:not(caption)>*>*,
+.tbl-footer>:not(caption)>*>*,
+.tbl-header>:not(caption)>*>* {
+  background-color: unset !important;
+  /* border: unset !important; */
+  padding: 0.1rem 0.1rem !important;
+}
+
+/* .total-order-smry td {
+  border-top: 1px solid black !important;
+} */
+
+.border-top {
+  border-top: 1px solid black !important;
+}
+
+thead {
+  border-bottom: 2px solid black;
+}
+
+.border-bottom td {
+  border-bottom: 1px solid black !important;
+}
+
+.inv-terms,
+.inv-cmpny-address,
+.invce-cmpny {
+  /* text-transform: capitalize; */
+}
+
+.login-cmpny {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.inv-cmpny-address {
+  margin-bottom: 0;
+  font-size: .6rem;
+}
+
+.tbl-header h3 {
+  color: #000 !important;
+}

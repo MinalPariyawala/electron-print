@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --bs-body-bg: #d7dbe0;
+  --bs-card-bg: #eff4f9;
+  --bs-black: #000000;
+  --bs-white: #ffffff;
+  --bs-input-focus: #3B82F6;
+  --bs-input-focus-bg: #e1edff;
+  --bs-sidebar-focus: #038edc;
+  --bs-footer-bg: #fafcfd;
+  --mdc-checkbox-state-layer-size: 18px;
+  --bs-body-font-size: 0.75rem;
+  --bs-body-color: #000000;
+}
+
+.form-label {
+  margin-bottom: 0.25rem;
+}
+
+.card-header,
+.card-body {
+  padding: 0.8rem 0.8rem;
+}
+
+.form-label {
+  margin-bottom: 0.1rem;
+}
+
+
+label {
+  font-weight: unset;
+  color: var(--bs-black);
+}
